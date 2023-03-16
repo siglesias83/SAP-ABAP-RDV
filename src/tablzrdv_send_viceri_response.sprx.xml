@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZRDV_SEND_VICERI_RESPONSE</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZRDV_SEND_VICERI_RESPONSE</OBJ_NAME_M>
+     <HASH_ID>E4DDBFB08E0088935ECAB0B299E002A540A8B7D4</HASH_ID>
+     <ID>&lt;message&gt; send_viceriResponse https://viceri.com.br/ https://viceri.com.br/</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>message</IFR_TYPE>
+     <IFR_NAME>send_viceriResponse</IFR_NAME>
+     <IFR_NSPCE>https://viceri.com.br/</IFR_NSPCE>
+     <IFR_GNSPCE>https://viceri.com.br/</IFR_GNSPCE>
+     <GEN_VERS>0006</GEN_VERS>
+     <PREFIX>ZRDV_</PREFIX>
+     <CATEGORY>ifmmessage</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>https://viceri.com.br/</X-ML_NSPCE>
+     <X-ML_NAME>response</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZRDV_SEND_VICERI_RESPONSE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>RETURN</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>RETURN</OBJ_NAME2>
+     <OBJECT_R>TTYP</OBJECT_R>
+     <OBJ_NAME_R>ZRDV_VICERI_RETURN_TYPE_TAB</OBJ_NAME_R>
+     <ID>&lt;element&gt; return &lt;message&gt; send_viceriResponse https://viceri.com.br/ https://viceri.com.br/</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>return</IFR_NAME>
+     <IFR_TAGTYP>L</IFR_TAGTYP>
+     <IFR_MAXOCC>65535</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>RETURN</R3_NAME>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZRDV_SEND_VICERI_RESPONSE</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZRDV_SEND_VICERI_RESPONSE</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZRDV_SEND_VICERI_RESPONSE</OBJ_NAME2>
+     <ID>&lt;message&gt; send_viceriResponse https://viceri.com.br/ https://viceri.com.br/</ID>
+     <IFR_TYPE>message</IFR_TYPE>
+     <IFR_NAME>send_viceriResponse</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZRDV_SEND_VICERI_RESPONSE</R3_NAME>
+     <R3_TEXT>Proxy Structure (generated)</R3_TEXT>
+     <CATEGORY>ifmmessage</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

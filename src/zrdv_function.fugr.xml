@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Grupo de funções RDV</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZRDV_FUNCTIONTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZRDV_FUNCTION</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZFEXCLUILOGZTRDV007</FUNCNAME>
+     <SHORT_TEXT>Exclui log ZTRDV007</SHORT_TEXT>
+    </item>
+    <item>
+     <FUNCNAME>ZFI_PROCFATURA_VISA</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Processamento Faturas Mensais</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>ZFATIN_VISA</PARAMETER>
+       <TYP>ZFATIN_VISA</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ZFATOUT</PARAMETER>
+       <TYP>ZFATOUT</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ZFATIN_VISA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Estrutura entrada de dados - RFC Fatura CC</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ZFATOUT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Mensagem do processamento</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZFRDV_EMAIL_INTERFACE</FUNCNAME>
+     <SHORT_TEXT>Envio de email RDV - Interfaces</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>RETURN</PARAMETER>
+       <DBFIELD>BAPIRETURN1</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ZTRDV</PARAMETER>
+       <DBSTRUCT>ZTRDV001</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Parâmetro de retorno</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ZTRDV</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Log Interfaces RDV - Banco do Brasil</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZFRDV_EMAIL_VIP433</FUNCNAME>
+     <SHORT_TEXT>Envio de email RDV - VIP433</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>RETURN</PARAMETER>
+       <DBFIELD>BAPIRETURN1</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ZTRDV</PARAMETER>
+       <DBSTRUCT>ZTRDV002</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Parâmetro de retorno</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ZTRDV</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Processamento BB VIP 433 - Lançamentos Diários</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZFRDV_EMAIL_VIP435</FUNCNAME>
+     <SHORT_TEXT>Envio de email RDV - VIP435</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>RETURN</PARAMETER>
+       <DBFIELD>BAPIRETURN1</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ZTRDV</PARAMETER>
+       <DBSTRUCT>ZTRDV003</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Parâmetro de retorno</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ZTRDV</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Processamento BB VIP 435 - Fatura</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZFRDV_EMAIL_VIP798</FUNCNAME>
+     <SHORT_TEXT>Envio de email RDV - VIP798</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>RETURN</PARAMETER>
+       <DBFIELD>BAPIRETURN1</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ZTRDV</PARAMETER>
+       <DBSTRUCT>ZTRDV004</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Parâmetro de retorno</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ZTRDV</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Erro Processamento BB VIP 798 - Saques Diários</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZF_RDV_TESTE_VISA</FUNCNAME>
+     <SHORT_TEXT>Teste RDV Visa</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>ZT_TESTE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTT_91_TEXT_PAGO</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ZT_TESTE</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

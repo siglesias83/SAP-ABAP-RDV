@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZRDV_VIP435TIPO12TYPE</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZRDV_VIP435TIPO12TYPE</OBJ_NAME_M>
+     <HASH_ID>5AE8BF86A76490C7C51DB11D43B2C2BDD95E27B7</HASH_ID>
+     <ID>&lt;type&gt; VIP435tipo12Type https://gmtedi.bb.com.br/gmt-sia-api/ https://gmtedi.bb.com.br/gmt-sia-api/</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>VIP435tipo12Type</IFR_NAME>
+     <IFR_NSPCE>https://gmtedi.bb.com.br/gmt-sia-api/</IFR_NSPCE>
+     <IFR_GNSPCE>https://gmtedi.bb.com.br/gmt-sia-api/</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZRDV_</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>https://gmtedi.bb.com.br/gmt-sia-api/</X-ML_NSPCE>
+     <X-ML_NAME>VIP435tipo12Type</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZRDV_VIP435TIPO12TYPE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>HEADER</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>HEADER</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZRDV_VIP435HEADER_TYPE</OBJ_NAME_R>
+     <ID>&lt;element&gt; header &lt;type&gt; VIP435tipo12Type https://gmtedi.bb.com.br/gmt-sia-api/ https://gmtedi.bb.com.br/gmt-sia-api/</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>header</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>HEADER</R3_NAME>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZRDV_VIP435TIPO12TYPE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>OPERATION</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>OPERATION</OBJ_NAME2>
+     <OBJECT_R>TTYP</OBJECT_R>
+     <OBJ_NAME_R>ZRDV_VIP435TIPO12OPER_TYPE_TAB</OBJ_NAME_R>
+     <ID>&lt;element&gt; operation &lt;type&gt; VIP435tipo12Type https://gmtedi.bb.com.br/gmt-sia-api/ https://gmtedi.bb.com.br/gmt-sia-api/</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>operation</IFR_NAME>
+     <IFR_TAGTYP>L</IFR_TAGTYP>
+     <IFR_MAXOCC>65535</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>OPERATION</R3_NAME>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZRDV_VIP435TIPO12TYPE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>TRAILER</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>TRAILER</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZRDV_VIP435TRAILER_TYPE</OBJ_NAME_R>
+     <ID>&lt;element&gt; trailer &lt;type&gt; VIP435tipo12Type https://gmtedi.bb.com.br/gmt-sia-api/ https://gmtedi.bb.com.br/gmt-sia-api/</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>trailer</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>TRAILER</R3_NAME>
+     <R3_SEQNUM>000003</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZRDV_VIP435TIPO12TYPE</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZRDV_VIP435TIPO12TYPE</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZRDV_VIP435TIPO12TYPE</OBJ_NAME2>
+     <ID>&lt;type&gt; VIP435tipo12Type https://gmtedi.bb.com.br/gmt-sia-api/ https://gmtedi.bb.com.br/gmt-sia-api/</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>VIP435tipo12Type</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZRDV_VIP435TIPO12TYPE</R3_NAME>
+     <R3_TEXT>Proxy Structure (generated)</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

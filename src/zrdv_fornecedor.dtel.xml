@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZRDV_FORNECEDOR</ROLLNAME>
+    <DDLANGUAGE>P</DDLANGUAGE>
+    <HEADLEN>40</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Fornecedor</DDTEXT>
+    <REPTEXT>Fornecedor</REPTEXT>
+    <SCRTEXT_S>Fornecedor</SCRTEXT_S>
+    <SCRTEXT_M>Fornecedor</SCRTEXT_M>
+    <SCRTEXT_L>Fornecedor</SCRTEXT_L>
+    <DTELMASTER>P</DTELMASTER>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000040</LENG>
+    <OUTPUTLEN>000040</OUTPUTLEN>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Provedor</DDTEXT>
+     <REPTEXT>Provedor</REPTEXT>
+     <SCRTEXT_S>Provedor</SCRTEXT_S>
+     <SCRTEXT_M>Provedor</SCRTEXT_M>
+     <SCRTEXT_L>Provedor</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

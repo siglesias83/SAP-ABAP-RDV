@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZRDV_DOWNLOAD_VIP433RESPONSE</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZRDV_DOWNLOAD_VIP433RESPONSE</OBJ_NAME_M>
+     <HASH_ID>B7562652C8BDA473B74497668E3216ED487DFB76</HASH_ID>
+     <ID>&lt;message&gt; downloadVIP433Response https://gmtedi.bb.com.br/gmt-sia-api/ https://gmtedi.bb.com.br/gmt-sia-api/</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>message</IFR_TYPE>
+     <IFR_NAME>downloadVIP433Response</IFR_NAME>
+     <IFR_NSPCE>https://gmtedi.bb.com.br/gmt-sia-api/</IFR_NSPCE>
+     <IFR_GNSPCE>https://gmtedi.bb.com.br/gmt-sia-api/</IFR_GNSPCE>
+     <GEN_VERS>0006</GEN_VERS>
+     <PREFIX>ZRDV_</PREFIX>
+     <CATEGORY>ifmmessage</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>https://gmtedi.bb.com.br/gmt-sia-api/</X-ML_NSPCE>
+     <X-ML_NAME>downloadVIP433Response</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZRDV_DOWNLOAD_VIP433RESPONSE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>HEADER</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>HEADER</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZRDV_VIP433HEADER_TYPE</OBJ_NAME_R>
+     <ID>&lt;element&gt; header &lt;message&gt; downloadVIP433Response https://gmtedi.bb.com.br/gmt-sia-api/ https://gmtedi.bb.com.br/gmt-sia-api/</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>header</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>HEADER</R3_NAME>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZRDV_DOWNLOAD_VIP433RESPONSE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>TIPO05</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>TIPO05</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZRDV_VIP433TIPO05TYPE</OBJ_NAME_R>
+     <ID>&lt;element&gt; tipo05 &lt;message&gt; downloadVIP433Response https://gmtedi.bb.com.br/gmt-sia-api/ https://gmtedi.bb.com.br/gmt-sia-api/</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>tipo05</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>TIPO05</R3_NAME>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZRDV_DOWNLOAD_VIP433RESPONSE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>TIPO12</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>TIPO12</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZRDV_VIP433TIPO12TYPE</OBJ_NAME_R>
+     <ID>&lt;element&gt; tipo12 &lt;message&gt; downloadVIP433Response https://gmtedi.bb.com.br/gmt-sia-api/ https://gmtedi.bb.com.br/gmt-sia-api/</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>tipo12</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>TIPO12</R3_NAME>
+     <R3_SEQNUM>000003</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZRDV_DOWNLOAD_VIP433RESPONSE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>TRAILER</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>TRAILER</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZRDV_VIP433TRAILER_TYPE</OBJ_NAME_R>
+     <ID>&lt;element&gt; trailer &lt;message&gt; downloadVIP433Response https://gmtedi.bb.com.br/gmt-sia-api/ https://gmtedi.bb.com.br/gmt-sia-api/</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>trailer</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>TRAILER</R3_NAME>
+     <R3_SEQNUM>000004</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZRDV_DOWNLOAD_VIP433RESPONSE</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZRDV_DOWNLOAD_VIP433RESPONSE</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZRDV_DOWNLOAD_VIP433RESPONSE</OBJ_NAME2>
+     <ID>&lt;message&gt; downloadVIP433Response https://gmtedi.bb.com.br/gmt-sia-api/ https://gmtedi.bb.com.br/gmt-sia-api/</ID>
+     <IFR_TYPE>message</IFR_TYPE>
+     <IFR_NAME>downloadVIP433Response</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZRDV_DOWNLOAD_VIP433RESPONSE</R3_NAME>
+     <R3_TEXT>Proxy Structure (generated)</R3_TEXT>
+     <CATEGORY>ifmmessage</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>
